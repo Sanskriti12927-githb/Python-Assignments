@@ -1,0 +1,44 @@
+# Creating a list
+A = ['Sanskriti', 'Aarav', 'Ananya', 'Rohan']
+print(A)
+# Adding an element in list
+A = ['Sanskriti', 'Aarav', 'Ananya', 'Rohan']
+A.append('Priya')
+print(A)
+# Removing an element from list
+A = ['Sanskriti', 'Aarav', 'Ananya', 'Rohan']
+A.remove('Aarav')
+print(A)
+
+# Creating a dictionary
+X = {'Name': 'Sanskriti',
+     'Course': 'CSE',
+     'College': 'MIT WPU'}
+print(X)
+# To return list of all keys in dictionary
+X = {'Name': 'Sanskriti',
+     'Course': 'CSE',
+     'College': 'MIT WPU'}
+print(X.keys())
+# To update the dictionary
+X = {'Name': 'Sanskriti',
+     'Course': 'CSE',
+     'College': 'MIT WPU'}
+X.update({'Area': 'Kothrud'})
+print(X)
+
+# Creating a Tuple
+Y = (85, 92, 78, 95, 88)
+print(Y)
+# To count no.of elements in Tuple
+Y = (85, 92, 78, 95, 88)
+Z = len(Y)
+print(Z)
+# To return smallest value in Tuple
+Y = (85, 92, 78, 95, 88)
+K = min(Y)
+print(K)
+# To return largest value in Tuple
+Y = (85, 92, 78, 95, 88)
+L = max(Y)
+print(L)
